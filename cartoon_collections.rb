@@ -16,5 +16,4 @@ def find_the_cheese(fancy_cheese)
   fancy_cheese.find do |cheeses| 
     cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
   end 
-  cheese_types = ["cheddar", "gouda", "camembert"]
 end
